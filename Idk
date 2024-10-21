@@ -1,0 +1,30 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("Callmebacon0334 Hub", "Default")
+
+local tab = DrRayLibrary.newTab("Player Script + Admin", "ImageIdHere")
+
+tab.newButton("Speed And Jump --Rework :)", "Click me!", function()
+    loadstring(game:HttpGet("https://pastefy.app/S3qLoL3g/raw"))()
+end)
+
+tab.newButton("Infinite Yield", "Click me!", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+tab.newButton("Nameless Admin", "Click me!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+
+tab.newButton("Fly gui", "Click me!", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+end)
+
+local tab = DrRayLibrary.newTab("Coming Soon :) + one script", "ImageIdHere")
+
+tab.newButton("Universal Product", "Click me!", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
+end)
+
+tab.newButton("Coming Soon from update 2 :)", "Click me!", function()
+    print('Hello!')
+end)
